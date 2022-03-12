@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+header{
+    background-image:url(../img/fondo-header.png);
+    background-size: cover;
+    margin-left:unset;
+    margin-top: 0%;
+    margin-bottom: 0% ;
+    margin-right: 0%;
+    
+}
+.miFoto {
+    border: 5px;
+    border-style: ridge  ;
+    border-color: black;
+    display: block; 
+    margin: auto;
+    padding: 0px;
+    width: 5%;
+    height: auto;
+
+}
+h1{
+    text-align: center;
+}
+    
+.img-footer{
+    margin: auto;
+    display: inline-block; 
+    
+}
+footer{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #2be1ee;
+    justify-content: space-around;
+    
+}
+
+p {
+    font-family: Verdana,Tahoma, sans-serif;
+    src: url(../fuente/static/SmoochSans-Bold.ttf);
+}

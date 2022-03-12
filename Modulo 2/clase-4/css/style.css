@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.header{
+    background-color: #1CD1B0 ;
+    width: auto ;
+    height: 38px;
+    text-align: left;
+}
+h1{
+    background-color: #00669F;
+    margin: 0px;
+    padding: 10px;
+    height: 101px;
+    width: auto ;
+}
+
+article{
+    position: relative;
+    
+    margin: auto;
+    
+    
+
+}
+
+.harley{
+    position: absolute;
+    left: 340px; 
+    padding: 25px;
+    
+    top: 121px ; 
+}
+.batman{
+    position: absolute ;
+    left: 680px;
+    padding-top: 25px;
+    padding-left: 25px;
+    
+}
+.batman2{
+    position: absolute;
+    left: 740px; 
+    padding: 25px;
+    top: 121px ; 
+}
+.fondo{
+    position: relative;
+    left: 100px;
+    top: 50px ;
+    
+}
+.foto-perfil{
+    border-radius: 75px ;
+    position: relative;
+    right: 112px;
+    top: 100px ;
+    z-index: 150;
+}
+.corazon{
+    position: relative;
+    left: 145px;
+    bottom: 105px ;
+    z-index: 150;
+}
+
+p .texto{
+    border: solid;
+    padding: 10px ;
+    text-align: left;
+    z-index: 200px ;
+    margin: 10px ;
+}
+button{
+    display: block;
+    margin: auto;
+    background-color: #00669F;
+    border: none;
+    color: #fff;
+    padding: 12px 32px;
+    border-radius: 5px;
+    font-size: 18px;
+    position: relative;
+    bottom: 0px;
+    
+}
+p {
+    margin: auto;
+    
+    z-index: 200px ;
+    
+}
+footer{
+    text-align: left;
+    background-color: #00669F;
+    width: auto ;
+    height: 38px;
+    margin: 0px;
+    padding: 10px;
+    text-align: left;
+    color: white;
+}

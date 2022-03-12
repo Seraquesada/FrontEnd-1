@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+header{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    display: flex ;
+}
+.logo{
+    position: relative;
+    padding: 10px;
+
+}
+h2{
+    position: relative;
+    top: 25%;
+    color: bisque;
+    padding: 10px;
+    
+}
+h3{
+    position: relative;
+    left: 950px;
+    top: 40px;
+}
+.menu{
+    color: #F3F3F3;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 18,75px ;
+}
+.deliver{
+    position: relative;
+    margin: 15px 35px;
+    height: 350px;
+    width: 490px;
+    left: 105px;
+    top: 85px;
+    border-radius: 5px;
+}
